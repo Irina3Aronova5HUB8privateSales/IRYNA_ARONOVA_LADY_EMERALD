@@ -1,0 +1,2 @@
+# IRYNA_ARONOVA_LADY_EMERALD
+Private brand
