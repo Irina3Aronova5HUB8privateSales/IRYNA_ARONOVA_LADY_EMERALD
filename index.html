@@ -1,0 +1,135 @@
+!-- Блок 1: Баннер с логотипом -->
+<section id="banner" style="background-color: white; display: flex; justify-content: center; align-items: center; padding: 40px 0;">
+  <img src="https://i.postimg.cc/fRmq7TBP/Screenshot-20250629-161655-Instagram.jpg" alt="Логотип IRYNA ARONOVA" style="max-width: 300px; width: 100%; height: auto; object-fit: contain;">
+</section>
+
+Объяснение:
+
+Используется секция с белым фоном.
+
+Картинка логотипа центрируется по горизонтали и вертикали.
+
+Логотип масштабируется под ширину экрана, максимум до 300px.
+
+object-fit: contain — сохраняет пропорции логотипа без обрезки.
+
+Вот минимальный пример HTML с SEO и стилями для твоего сайта в галактическом минимализме:
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IRYNA ARONOVA - GOD WAY</title>
+  <meta name="description" content="Атмосферный люкс имиджевый сайт-одностраничник IRYNA ARONOVA с уникальной женской силой и галактической энергией." />
+  <meta name="keywords" content="женская сила, имидж, энергия, галактика, Iryna Aronova, God Way" />
+  <meta name="author" content="Iryna Aronova" />
+  
+  <style>
+    /* Галактический минимализм */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #eee;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: rgba(255 255 255 / 0.1);
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid rgba(255 255 255 / 0.2);
+      box-shadow: 0 0 15px #5c8affaa;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #a6c8ff;
+      text-shadow: 0 0 10px #5c8aff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      background: rgba(255 255 255 / 0.05);
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #5c8aff66;
+      transition: box-shadow 0.3s ease;
+    }
+    section:hover {
+      box-shadow: 0 0 30px #a6c8ffcc;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #cbd5ff;
+      text-shadow: 0 0 6px #5c8affaa;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #ddd;
+      text-shadow: 0 0 2px #0005;
+    }
+
+    /* Кнопка (пример для CTA) */
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1.6rem;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #0f2027;
+      background: #a6c8ff;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 0 10px #5c8affaa;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background: #759fff;
+      box-shadow: 0 0 15px #759fffcc;
+    }
+
+    /* Анимация свечения */
+    @keyframes glow {
+      0%, 100% {
+        text-shadow: 0 0 5px #5c8aff, 0 0 10px #a6c8ff, 0 0 20px #5c8aff;
+      }
+      50% {
+        text-shadow: 0 0 10px #a6c8ff, 0 0 20px #759fff, 0 0 30px #5c8aff;
+      }
+    }
+
+    /* Применение к заголовку */
+    header h1 {
+      animation: glow 3s infinite alternate;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IRYNA ARONOVA - GOD WAY</h1>
+  </header>
+  <main>
+    <!-- Здесь будут блоки контента -->
+  </main>
+</body>
+</html>
